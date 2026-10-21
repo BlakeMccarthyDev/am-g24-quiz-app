@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+* {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+#quiz-container {
+    background-color: #efefef;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    place-items: center;
+    border: solid 3px #dedede;
+    border-radius: 1vb;
+}
+
+#answering-tracker {
+    background-color: #efefef;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    place-items: center;
+    border: solid 3px #dedede;
+    border-radius: 1vb;
+    min-height: 10vh;
+}
+
+#quiz-container>h2:first-of-type {
+    padding-top: 5%;
+    padding-bottom: 7.5%;
+}
+
+#quiz-container>button {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: -1%;
+    min-height: 50px;
+    margin-bottom: 10%;
+    transition: all 0.2s ease;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 1vb;
+}
+
+#quiz-container>button:last-of-type {
+    max-width: 10vw;
+    margin-left: 42%;
+    margin-bottom: 3%;
+}
+
+#quiz-container>button:hover {
+    background-color: #4545cd;
+    border: none;
+    color: #ffefef;
+    border-radius: .5vb;
+    scale: 1.1;
+}
+
+#quiz-container>button:active {
+    background-color: #efefef;
+    color: #4545cd;
+    border: 1px solid #dcdcdc;
+}
+
+#quiz-container>h2:last-of-type {
+    padding-bottom: 10%;
+}
