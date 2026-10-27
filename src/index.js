@@ -1,6 +1,8 @@
+
+document.getElementById("nav-open").onclick = toggleToolbar
 document.getElementById("quiz-next-question").hidden = true
 
-function answer(element ) {
+function answer(element) {
     CorrectAnswer = "Answer 2"
     if (element.textContent == CorrectAnswer)
     {
@@ -15,3 +17,24 @@ function answer(element ) {
     }
 }
 
+function toggleToolbar()
+{
+    if (document.getElementById("nav-home").hidden == false)
+    {
+        closeToolbar();
+    }
+    else{
+        showToolbar();
+    }
+}
+
+function showToolbar()
+{
+    document.getElementById("nav-home").hidden=false
+    
+}
+
+function closeToolbar()
+{
+    document.getElementById("nav-home").hidden=true
+}
