@@ -1,0 +1,112 @@
+:root {
+    --paper: #eef1f6;
+    --surface: #ffffff;
+    --colour: #17233d;
+    --colour-soft: #55627d;
+    --line: #d5dbe7;
+    --accent: #2b45d6;
+    --accent-colour: #ffffff;
+    --radius: 14px;
+
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--paper);
+    color: var(--colour);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+}
+
+/* FONT CAN BE CHANGED TO MATCH OTHER PAGES AFTER FULL DEV */
+
+.header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 15;
+}
+
+.nav-head {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.navlink {
+    padding: 18px 14px 16px;
+    color: var(--colour-soft);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px transparent solid;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.navlink:hover {
+    color: var(--colour);
+}
+
+.navlink:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: -3px;
+    border-radius: 6px;
+
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+
+}
+
+.banner {
+    padding: 64px 0 40px;
+
+}
+
+.title {
+    margin: 0 0 12px;
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+}
+
+.text {
+    margin: 0;
+    max-width: 46ch;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: var(--colour-soft);
+
+}
+
+.quizzes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    aspect-ratio: 3 / 2;
+    perspective: 900px;
+    border-radius: var(--radius);
+
+}
+
+.card:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
+
+}
