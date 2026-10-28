@@ -1,9 +1,12 @@
 function LoadQuestions(pathToJSON) {
-
+    js = JSON.parse(open(pathToJSON))
+    console.log(js)
     return ["Hello"]
 }
 
 /* 
+
+TODO: MAKE JSON FILES USING THIS STRUCTURE
 
 JSON STRUCTURE
 
