@@ -1,21 +1,21 @@
 :root {
-    --paper: #F4F6F8;
-    --surface: #a0a0a0;
-    --colour: #1e1f20;
-    --colour-soft: #55627d;
-    --line: #0f0f0f62;
-    --accent: #2B4162;
-    --accent-colour: #E0E0E2;
+    --mainbackground: #bec0c2;
+    --boxes-Banner: #ffffff;
+    --maintext: #243388;
+    --cardback: #f5f5f0;
+    --outerlines: #a19595;
+    --cardfront: #f5f5f0;
+    --textcover: #161616;
     --radius: 14px;
-
 }
 
+/* Colours all here - use the root code names to change the colours on the pages */
 
 body {
     margin: 0;
     min-height: 100vh;
-    background: var(--paper);
-    color: var(--colour);
+    background: var(--mainbackground);
+    color: var(--maintext);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 2;
 }
@@ -23,14 +23,14 @@ body {
 /* FONT CAN BE CHANGED TO MATCH OTHER PAGES AFTER FULL DEV */
 
 .header {
-    background: var(--surface);
-    border-bottom: 1px solid var(--line);
+    background: var(--boxes-banner);
+    border-bottom: 1px solid var(--outerlines);
     position: sticky;
     top: 0;
     z-index: 15;
 }
 
-.nav-head {
+.navigation {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 24px;
@@ -38,28 +38,24 @@ body {
     gap: 8px;
 
 }
-
-.navlink {
+.navigationlink {
     padding: 18px 14px 16px;
-    color: var(--colour-soft);
+    color: var(--maintext);
     text-decoration: none;
     font-weight: 500;
     border-bottom: 2px transparent solid;
     transition: color 0.15s ease, border-color 0.15s ease;
 }
-
-.navlink:hover {
-    color: var(--colour);
+.navigationlink:hover {
+    color: var(--maintext);
 }
-
-.navlink:focus-visible {
-    outline: 3px solid var(--accent);
+.navigationlink:focus-visible {
+    outline: 3px solid var(--outerlines);
     outline-offset: -3px;
     border-radius: 6px;
 
 }
-
-main {
+.main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 24px 64px;
@@ -83,7 +79,7 @@ main {
     max-width: 46ch;
     font-size: 1.15rem;
     line-height: 1.5;
-    color: var(--colour-soft);
+    color: var(--maintext);
     text-align: center;
     max-width: 46ch;
 
@@ -107,7 +103,7 @@ main {
 }
 
 .card:focus-visible {
-    outline: 3px solid var(--accent);
+    outline: 3px solid var(--outerlines);
     outline-offset: 4px;
 
 }
@@ -120,7 +116,6 @@ main {
     transform-style: preserve-3d;
     transition: transform 0.5s cubic-bezier(0.3, 0.7, 0.2, 1);
 }
-
 .cardface {
     position: absolute;
     inset: 0;
@@ -133,16 +128,26 @@ main {
     font-size: 1.6rem;
     line-height: 1.3;
 }
-
 .cardfront {
-    background: var(--surface);
-    border: 1px solid var(--line);
+    background: var(--cardfront);
+    border: 1px solid var(--outerlines);
     box-shadow: 0 1px 2px rgba(23, 35, 61, 0.06), 0 8px 20px -12px rgba(23, 35, 61, 0.25);
 }
-
 .cardback {
-    background: var(--accent);
-    color: var(--accent-colour);
+    background: var(--cardback);
+    color: var(--maintext);
     transform: rotateY(180deg);
     box-shadow: 0 12px 28px -12px rgba(42, 69, 210, 0.5);
+}
+
+/* card flip */
+
+:media (hover: hover) {
+    .card:hover .card-in {
+        transform: rotateY(180deg);
+    }
+}
+
+.card:focus-within .card-in {
+    transform: rotateY(180deg);
 }
