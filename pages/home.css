@@ -1,6 +1,6 @@
 :root {
     --mainbackground: #bec0c2;
-    --boxes-Banner: #ffffff;
+    --boxes-banner: #ffffff;
     --maintext: #243388;
     --cardback: #f5f5f0;
     --outerlines: #a19595;
@@ -142,7 +142,7 @@ body {
 
 /* card flip */
 
-:media (hover: hover) {
+@media (hover: hover) {
     .card:hover .card-in {
         transform: rotateY(180deg);
     }
