@@ -1,0 +1,110 @@
+:root {
+    --mainbackground: #bec0c2;
+    --boxes-banner: #a8a7a7;
+    --maintext: #243388;
+    --cardback: #f5f5f0;
+    --outerlines: #a19595;
+    --cardfront: #f5f5f0;
+    --textcover: #161616;
+    --questionbox: #7cd0d6;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--mainbackground);
+    color: var(--maintext);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+}
+
+/* FONT CAN BE CHANGED TO MATCH OTHER PAGES AFTER FULL DEV */
+
+.header {
+    background: var(--boxes-banner);
+    border-bottom: 1px solid var(--outerlines);
+    position: sticky;
+    top: 0;
+    z-index: 15;
+}
+
+.navigation {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    gap: 8px;
+
+}
+.navigationlink {
+    padding: 18px 14px 16px;
+    color: var(--maintext);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px transparent solid;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+.navigationlink:hover {
+    color: var(--maintext);
+}
+.navigationlink:focus-visible {
+    outline: 3px solid var(--outerlines);
+    outline-offset: -3px;
+    border-radius: 6px;
+
+}
+
+.quiz-container {
+    max-width: 80%;
+    margin: 65px auto;
+    width: 90%;
+    padding: 25px 75px 25px;
+    background-color: var(--questionbox);
+    border: 1px solid var(--outerlines);
+    box-sizing: border-box;
+}
+
+.quiz-quesion-label {
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 20px
+}
+
+.quiz-answer {
+    display:block;
+    text-align: left;
+    font-size: 15px;
+    background: none;
+    width: 100%;
+    border: none;
+    margin-bottom: 50px;
+    color: var(--maintext);
+    cursor: pointer;
+}
+.quiz-answer:hover {
+    text-decoration: underline;
+}
+
+.navigationlink:hover {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.next-button {
+    display:block;
+    font-size: 15px;
+    background: none;
+    border: none;
+    margin-left: auto;
+    color: var(--maintext);
+    cursor: pointer;
+}
+.next-button:hover {
+    text-decoration: underline;
+}
+
+.quiz-answer:focus-visible,
+.next-button:focus-visible {
+    outline: 3px solid var(--outerlines);
+    outline-offset: -3px;
+}

@@ -5,28 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+     <header class="header">
+        <nav class="navigation" aria-label="Main">
+            <a href="home.html" class="navigationlink" aria-current="page">Home</a>
+            <a href="settings.html" class="navigationlink">Settings</a>
+        </nav>
+    </header>
+
+
     <title>English Quiz</title>
 
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="quiz1.css">
 </head>
 
 <body>
-
-    <div id="toolbar">
-
-        <button id="nav-home" hidden type="button">
-            Home
-        </button>
-
-        <button id="nav-open" type="button">
-            Menu
-        </button>
-
-    </div>
-
-    <div id="quiz-container">
-
-        <h2 id="quiz-question-label">
+    <div class="quiz-container">
+        <h2 class="quiz-question-label">
             Loading questions...
         </h2>
 
@@ -35,9 +29,9 @@
         <button class="quiz-answer" type="button">Answer 3</button>
         <button class="quiz-answer" type="button">Answer 4</button>
 
-        <h2 id="quiz-result-correctness"></h2>
+        <h2 class="quiz-result-correctness"></h2>
 
-        <button id="quiz-next-question" type="button" hidden>
+        <button class="next-button" type="button" hidden>
             Next
         </button>
 
