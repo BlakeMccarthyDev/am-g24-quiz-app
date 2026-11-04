@@ -1,0 +1,53 @@
+[
+  {
+    "question": "Which word is a noun?",
+    "answers": [
+      "Quickly",
+      "Happiness",
+      "Run",
+      "Beautiful"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which sentence is grammatically correct?",
+    "answers": [
+      "She go to school.",
+      "She going to school.",
+      "She goes to school.",
+      "She gone to school."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the opposite of 'difficult'?",
+    "answers": [
+      "Hard",
+      "Complicated",
+      "Easy",
+      "Tricky"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which word is spelled correctly?",
+    "answers": [
+      "Becaus",
+      "Because",
+      "Beacuse",
+      "Becose"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which word is an adjective?",
+    "answers": [
+      "Happily",
+      "Jump",
+      "Table",
+      "Colourful"
+    ],
+    "correct": 3
+  }
+]
+
