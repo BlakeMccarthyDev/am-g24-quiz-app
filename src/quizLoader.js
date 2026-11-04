@@ -1,7 +1,7 @@
-function LoadQuestions(pathToJSON) {
-    js = JSON.parse(open(pathToJSON))
-    console.log(js)
-    return ["Hello"]
+function loadQuestions(pathToJSON) {
+    questionJSON = JSON.parse(open(pathToJSON))
+    console.log(questionJSON)
+    return questionJSON
 }
 
 /* 
