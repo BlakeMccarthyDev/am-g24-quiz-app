@@ -12,18 +12,6 @@ let currentQuestionIndex = 0;
 let score = 0;
 let hasAnswered = false;
 
-
-// Toolbar - only initialise if it exists
-const navOpen = document.getElementById("nav-open");
-const navHome = document.getElementById("nav-home");
-
-if (navOpen && navHome) {
-    navOpen.addEventListener("click", () => {
-        navHome.hidden = !navHome.hidden;
-    });
-}
-
-
 // Load questions
 async function startQuiz() {
     try {

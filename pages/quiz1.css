@@ -64,7 +64,7 @@ body {
     box-sizing: border-box;
 }
 
-.quiz-quesion-label {
+#quiz-quesion-label {
     margin-bottom: 35px;
     text-align: center;
     font-size: 20px
@@ -90,7 +90,7 @@ body {
     margin-bottom: 20px;
 }
 
-.next-button {
+#quiz-next-question {
     display:block;
     font-size: 15px;
     background: none;
@@ -99,12 +99,12 @@ body {
     color: var(--maintext);
     cursor: pointer;
 }
-.next-button:hover {
+#quiz-next-question:hover {
     text-decoration: underline;
 }
 
 .quiz-answer:focus-visible,
-.next-button:focus-visible {
+#quiz-next-question:focus-visible {
     outline: 3px solid var(--outerlines);
     outline-offset: -3px;
 }
