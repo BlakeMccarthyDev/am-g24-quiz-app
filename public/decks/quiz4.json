@@ -1,0 +1,55 @@
+[
+  {
+    "question": "", // Add your question here
+    "answers": [ // Add answers here
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": // Add which answer is correct (0, 1, 2, or 3)
+  },
+  {
+    "question": "", // Add your question here
+    "answers": [ // Add answers here
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": // Add which answer is correct (0, 1, 2, or 3)
+  },
+  {
+    "question": "", // Add your question here
+    "answers": [ // Add answers here
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct":  // Add which answer is correct (0, 1, 2, or 3)
+  },
+  {
+    "question": "", // Add your question here
+    "answers": [ // Add answers here
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": // Add which answer is correct (0, 1, 2, or 3)
+  },
+  {
+    "question": "", // Add your question here
+    "answers": [ // Add answers here
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correct": 
+  }
+]
+
+//DELETE COMMENTS WHEN FINISHED SO FILE WILL WORK - LINKS WILL BE ADDED LATER
+
