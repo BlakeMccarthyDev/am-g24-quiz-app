@@ -1,12 +1,12 @@
 :root {
-    --mainbackground: #bec0c2;
-    --boxes-banner: #ffffff;
-    --maintext: #243388;
-    --cardback: #f5f5f0;
-    --outerlines: #a19595;
-    --cardfront: #f5f5f0;
-    --textcover: #161616;
-    --radius: 14px;
+    --mainbackground: #b6adcc;
+    --boxes-banner: #e0d9f1;
+    --maintext: #29292c;
+    --cardback: #ece7f9;
+    --outerlines: #b5aad6;
+    --cardfront: #fbfaff;
+    --textcover: #0c0c0c;
+    --radius: 12px;
 }
 
 /* Colours all here - use the root code names to change the colours on the pages */
@@ -31,8 +31,6 @@ body {
 }
 
 .navigation {
-    max-width: 1000px;
-    margin: 0 auto;
     padding: 0 24px;
     display: flex;
     gap: 8px;
@@ -82,7 +80,7 @@ body {
     color: var(--maintext);
     text-align: center;
     max-width: 46ch;
-
+    margin: 0 auto;
 }
 
 .quizzes {
@@ -127,6 +125,7 @@ body {
     backface-visibility: hidden;
     font-size: 1.6rem;
     line-height: 1.3;
+    text-align: center;
 }
 .cardfront {
     background: var(--cardfront);
