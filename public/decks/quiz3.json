@@ -1,55 +1,54 @@
 [
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Which planet in our solar system is known as the 'Red Planet'?", 
+    "answers": [ 
+      "Venus",
+      "Earth",
+      "Mars",
+      "Saturn"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 2
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Bears hibernate in the winter, but what are they actually doing during this time?", 
+    "answers": [ 
+      "They just sleep",
+      "They go into hiding",
+      "Their metabolism speeds up to keep them warm",
+      "Their heart rate and metabolism slow down to save energy"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 3
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Which ocean creature has three hearts and blue blood?", 
+    "answers": [ 
+      "Great White Shark",
+      "Seals",
+      "Octopus",
+      "Anglerfish"
     ],
-    "correct":  // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 2 
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "What is the only organ in the human body that can completely regenerate itself from a tiny fragment left?", 
+    "answers": [ 
+      "Liver",
+      "Heart",
+      "Brain",
+      "Kidney"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 0
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "How many bones does an adult human body typically have?", 
+    "answers": [ 
+      "106",
+      "200",
+      "402",
+      "206"
     ],
-    "correct": 
+    "correct": 3
   }
 ]
 
-//DELETE COMMENTS WHEN FINISHED SO FILE WILL WORK - LINKS WILL BE ADDED LATER
 
