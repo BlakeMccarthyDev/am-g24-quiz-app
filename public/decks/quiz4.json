@@ -1,55 +1,55 @@
 [
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "What year did the Titanic sink when going across the Atlantic?", 
+    "answers": [ 
+      "1902",
+      "1812",
+      "1912",
+      "2002"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 2
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Who was the first Emperor of the Roman Empire?",
+    "answers": [
+      "Julia Caesar",
+      "Augustus Caesar",
+      "Lionel Messi",
+      "Patrick Mahomes"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 1
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Which ancient civilisation built the mountain citadel of Machu Picchu?", 
+    "answers": [ 
+      "Aztec",
+      "Alien",
+      "Olmec",
+      "Inca"
     ],
-    "correct":  // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 3
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
-    ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
-  },
-  {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Who is 'credited' with discovering penicillin in 1928?", 
+    "answers": [ 
+      "Mona Lisa",
+      "Gregor Mandel",
+      "Van Gogh",
+      "Alexander Fleming"
     ],
     "correct": 
+  },
+  {
+    "question": "Who was the first person in space?", 
+    "answers": [ 
+      "Neil Armstrong",
+      "Greg Armstrong",
+      "Dominic Szoboszlai",
+      "Yuri Gagarin"
+    ],
+    "correct": 3
   }
 ]
 
-//DELETE COMMENTS WHEN FINISHED SO FILE WILL WORK - LINKS WILL BE ADDED LATER
+
 
