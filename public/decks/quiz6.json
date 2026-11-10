@@ -27,7 +27,7 @@
       "SSD",
       "HDD"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "A specific data structure operates on 'Last In, First Out' or LIFO, What is this data structure called?", 
@@ -37,7 +37,7 @@
       "Queues",
       "Sets"
     ],
-    "correct": 
+    "correct": 0
   },
   {
     "question": "When you solve a CAPTCHA on Google or another browser etc, what are you actually helping a computer do?", 
