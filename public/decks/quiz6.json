@@ -1,55 +1,53 @@
 [
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "In 1947, Grace Hopper, an computer scientist, recorded the first actual case of a computer 'bug.' What kind of creature was discovered causing a malfunction in the Harvard Mark II computer?.", 
+    "answers": [ 
+      "A beetle",
+      "A fly",
+      "A ladybug",
+      "A moth"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 3
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "What is a step-by-step set of instructions or rules followed by a computer to solve a problem or to complete a task?", 
+    "answers": [ 
+      "A compiler",
+      "An interpreter",
+      "A variable",
+      "An algorithm"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 3
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Which type of computer memory is volatile?",
+    "answers": [ 
+      "RAM",
+      "ROM",
+      "SSD",
+      "HDD"
     ],
-    "correct":  // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 2
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
-    ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
-  },
-  {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "A specific data structure operates on 'Last In, First Out' or LIFO, What is this data structure called?", 
+    "answers": [ 
+      "Stacks",
+      "Arrays",
+      "Queues",
+      "Sets"
     ],
     "correct": 
+  },
+  {
+    "question": "When you solve a CAPTCHA on Google or another browser etc, what are you actually helping a computer do?", 
+    "answers": [ 
+      "Train the AI Model",
+      "Improve browser performance",
+      "Speeding up the next time you have to complete a CAPTCHA",
+      "Encrypt and decrypt your Internet Connection"
+    ],
+    "correct": 0
   }
 ]
-
-//DELETE COMMENTS WHEN FINISHED SO FILE WILL WORK - LINKS WILL BE ADDED LATER
 
