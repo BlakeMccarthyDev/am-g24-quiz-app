@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="home.css">
 </head> <!-- leave this here please-->
+
 <body>
     <header class="header">
         <nav class="navigation" aria-label="Main">
             <a href="home.html" class="navigationlink" aria-current="page">Home</a>
             <a href="settings.html" class="navigationlink">Settings</a>
+            <link rel="stylesheet" href="/pages/home.css">
         </nav>
     </header>
 
@@ -18,9 +21,17 @@
             <h1 class="title">Settings</h1>
             <p class="text">Customize your experience and find out more information</p>
         </section>
-    
+
+        <section class="settingsContent">
+            <input type="range" name="TextSizeSlider" id="TextSizeSlider" min="12" max="20" step="2">
+            <a id="TextSizeLabel">12</a>
+            <input type="checkbox" name="DarkModeSwitch" id="DarkModeSwitch" role="switch">
+            <a id="DarkModeLabel">Dark Mode XX</a>
+        </section>
+
     </main>
 
-
+    <script src="/src/settings.js"></script>
 </body>
+
 </html>

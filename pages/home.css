@@ -9,6 +9,19 @@
     --radius: 12px;
 }
 
+
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --mainbackground: #29292c;
+    --boxes-banner: #3a3a3d;
+    --maintext: #ece7f9;
+    --cardback: #3a3a3d;
+    --outerlines: #ece7f9;
+    --cardfront: #29292c;
+    --textcover: #fbfaff;
+    --questionbox: #3a3a3d;
+}
+
 /* Colours all here - use the root code names to change the colours on the pages */
 
 body {
