@@ -1,11 +1,21 @@
-document.getElementById("TextSizeSlider").addEventListener("change", (e) =>
+DarkModeSwitch = document.getElementById("DarkModeSwitch");
+TextSizeSlider = document.getElementById("TextSizeSlider");
+
+TextSizeSlider.addEventListener("change", (e) =>
 {
     console.log("Changed Slider");
-    document.getElementById("TextSizeLabel").textContent = document.getElementById("TextSizeSlider").value;
+    document.getElementById("TextSizeLabel").textContent = TextSizeSlider.value;
 })
 
-document.getElementById("DarkModeSwitch").addEventListener("change", (e) =>
+DarkModeSwitch.addEventListener("change", (e) =>
 {
     console.log("Switched");
-    document.body.style.setProperty("data-theme", "dark")
+    if(DarkModeSwitch.checked)
+    {
+        document.documentElement.dataset["theme"] = "dark"
+    }
+    else
+    {
+        document.documentElement.dataset["theme"] = "light";
+    }
 })
