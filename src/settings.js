@@ -14,9 +14,11 @@ DarkModeSwitch.addEventListener("change", (e) =>
     if(DarkModeSwitch.checked)
     {
         document.documentElement.dataset["theme"] = "dark"
+        localStorage.setItem("darkmode", "on");
     }
     else
     {
         document.documentElement.dataset["theme"] = "light";
+        localStorage.setItem("darkmode", "off");
     }
 })
