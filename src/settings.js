@@ -5,7 +5,8 @@ TextSizeSlider.addEventListener("change", (e) =>
 {
     console.log("Changed Slider");
     document.documentElement.style.setProperty("--text-size-multiplier", (TextSizeSlider.value / 12));
-    document.getElementById("TextSizeLabel").textContent = TextSizeSlider.value
+    document.getElementById("TextSizeLabel").textContent = TextSizeSlider.value;
+    localStorage.setItem("textSize", document.documentElement.style.getPropertyValue("--text-size-multiplier"));
 })
 
 DarkModeSwitch.addEventListener("change", (e) =>

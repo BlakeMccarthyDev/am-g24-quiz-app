@@ -42,4 +42,5 @@
     if (localStorage.getItem("darkmode") == "on") {
         document.documentElement.dataset["theme"] = "dark";
     }
+    document.documentElement.style.setProperty("--text-size-multiplier", localStorage.getItem("textSize"));
 </script>
