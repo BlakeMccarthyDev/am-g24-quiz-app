@@ -1,6 +1,6 @@
 [
   {
-    "question": "Blake walks into a store to buy 13 packs of sweets. Each pack costs £7. What is his total cost?",
+    "question": "Blake walks into the store to buy 13 packs of sweets, each pack costs £7. How much is his total cost?",
     "answers": [
       "£20",
       "£91",
@@ -10,7 +10,7 @@
     "correct": 1
   },
   {
-    "question": "There is a queue for a rollercoaster that carries one person at a time. If each ride takes 10 minutes and 5 people are ahead of you, how long must you wait before your turn?",
+    "question": "There's a big line for a solo rollercoaster. If the ride takes 10 Minutes, and 5 people are in the queue before you, how long do you have to wait before it's your turn?",
     "answers": [
       "50 minutes",
       "500 minutes",
@@ -20,7 +20,7 @@
     "correct": 0
   },
   {
-    "question": "Jude is buying a new car. It originally costs £80,000 but is reduced by 25%. What is the new price?",
+    "question": "Jude is buying a new car, it originally costs £80,000 but is reduced by 25%. What is the new price?",
     "answers": [
       "£25,000",
       "£40,000",
@@ -30,7 +30,7 @@
     "correct": 2
   },
   {
-    "question": "Ryan has three dodgeballs: red, white and yellow. He throws them in order, and each throw has a 15% chance of hitting the target. What is the probability that Ryan hits the target with his first throw?",
+    "question": "Ryan has three dodgeballs which are red, white and yellow. He throws them at a person in order and each throw has a 15% chance of hitting the target. What is the probability that Ryan hits the target with his first throw?",
     "answers": [
       "15%",
       "30%",
