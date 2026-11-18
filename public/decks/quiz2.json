@@ -1,55 +1,72 @@
 [
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Blake walks into a store to buy 13 packs of sweets. Each pack costs £7. What is his total cost?",
+    "answers": [
+      "£20",
+      "£91",
+      "£191",
+      "£19"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 1
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "There is a queue for a rollercoaster that carries one person at a time. If each ride takes 10 minutes and 5 people are ahead of you, how long must you wait before your turn?",
+    "answers": [
+      "50 minutes",
+      "500 minutes",
+      "15 minutes",
+      "5 minutes"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 0
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Jude is buying a new car. It originally costs £80,000 but is reduced by 25%. What is the new price?",
+    "answers": [
+      "£25,000",
+      "£40,000",
+      "£60,000",
+      "£55,000"
     ],
-    "correct":  // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 2
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Ryan has three dodgeballs: red, white and yellow. He throws them in order, and each throw has a 15% chance of hitting the target. What is the probability that Ryan hits the target with his first throw?",
+    "answers": [
+      "15%",
+      "30%",
+      "0%",
+      "60%"
     ],
-    "correct": // Add which answer is correct (0, 1, 2, or 3)
+    "correct": 0
   },
   {
-    "question": "", // Add your question here
-    "answers": [ // Add answers here
-      "",
-      "",
-      "",
-      ""
+    "question": "Luke is driving to a party that normally takes 30 minutes to reach from his house. However, he accidentally drives in the wrong direction for 12 minutes before realising his mistake. He turns around, drives back along the same route, and then continues towards the party. If he travels at a constant speed, how long does his entire journey take?",
+    "answers": [
+      "52 minutes",
+      "48 minutes",
+      "122 minutes",
+      "54 minutes"
     ],
-    "correct": 
+    "correct": 3
+  },
+  {
+    "question": "What is the value of x if 3x + 5 = 20?",
+    "answers": [
+      "2",
+      "48",
+      "12",
+      "5"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is 15% of 200?",
+    "answers": [
+      "20",
+      "25",
+      "2",
+      "30"
+    ],
+    "correct": 3
   }
 ]
-
-//DELETE COMMENTS WHEN FINISHED SO FILE WILL WORK - LINKS WILL BE ADDED LATER
-

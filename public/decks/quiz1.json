@@ -48,6 +48,26 @@
       "Colourful"
     ],
     "correct": 3
+  },
+   {
+    "question": "Which word is an verb?",
+    "answers": [
+      "Leaping",
+      "Stairs",
+      "Coal",
+      "Man"
+    ],
+    "correct": 0
+  },
+   {
+    "question": "Which word is an adverb?",
+    "answers": [
+      "Faithful",
+      "Mandable",
+      "Today",
+      "Treasure"
+    ],
+    "correct": 2
   }
 ]
 
