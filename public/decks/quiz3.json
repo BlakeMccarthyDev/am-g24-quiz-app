@@ -1,7 +1,7 @@
 [
   {
-    "question": "Which planet in our solar system is known as the 'Red Planet'?", 
-    "answers": [ 
+    "question": "Which planet in our solar system is known as the 'Red Planet'?",
+    "answers": [
       "Venus",
       "Earth",
       "Mars",
@@ -10,8 +10,8 @@
     "correct": 2
   },
   {
-    "question": "Bears hibernate in the winter, but what are they actually doing during this time?", 
-    "answers": [ 
+    "question": "Bears hibernate in the winter, but what are they actually doing during this time?",
+    "answers": [
       "They just sleep",
       "They go into hiding",
       "Their metabolism speeds up to keep them warm",
@@ -20,18 +20,18 @@
     "correct": 3
   },
   {
-    "question": "Which ocean creature has three hearts and blue blood?", 
-    "answers": [ 
+    "question": "Which ocean creature has three hearts and blue blood?",
+    "answers": [
       "Great White Shark",
       "Seals",
       "Octopus",
       "Anglerfish"
     ],
-    "correct": 2 
+    "correct": 2
   },
   {
-    "question": "What is the only organ in the human body that can completely regenerate itself from a tiny fragment left?", 
-    "answers": [ 
+    "question": "Which organ in the human body is capable of regenerating much of its lost tissue?",
+    "answers": [
       "Liver",
       "Heart",
       "Brain",
@@ -40,15 +40,33 @@
     "correct": 0
   },
   {
-    "question": "How many bones does an adult human body typically have?", 
-    "answers": [ 
+    "question": "How many bones does an adult human body typically have?",
+    "answers": [
       "106",
       "200",
       "402",
       "206"
     ],
     "correct": 3
+  },
+  {
+    "question": "If you were exposed to the vacuum of space without a spacesuit, what would happen within seconds due to the lack of oxygen?",
+    "answers": [
+      "Your body would instantly freeze solid",
+      "Your body would explode",
+      "You would lose consciousness",
+      "Your blood would immediately turn into ice"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of these animals can survive having much of its body water frozen and then thawing out alive?",
+    "answers": [
+      "Wood Frog",
+      "Polar Bear",
+      "Emperor Penguin",
+      "Arctic Fox"
+    ],
+    "correct": 0
   }
 ]
-
-
