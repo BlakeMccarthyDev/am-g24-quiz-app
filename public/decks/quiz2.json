@@ -49,6 +49,26 @@
     ],
     "correct": 3
   }
+   {
+    "question": "What is the value of x if 3x + 5 = 20?", 
+    "answers": [ 
+      "2",
+      "48",
+      "12",
+      "5"
+    ],
+    "correct": 3
+  },
+   {
+    "question": "What is 15% of 200?", 
+    "answers": [ 
+      "20",
+      "25",
+      "2",
+      "30"
+    ],
+    "correct": 3
+  }
 ]
 
 
