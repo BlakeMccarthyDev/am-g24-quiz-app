@@ -1,7 +1,7 @@
 [
   {
-    "question": "What's the capital of Australia?", 
-    "answers": [ 
+    "question": "What's the capital of Australia?",
+    "answers": [
       "Melbourne",
       "Sydney",
       "Canberra",
@@ -11,7 +11,7 @@
   },
   {
     "question": "Which two countries share the longest international land border in the world?",
-    "answers": [ 
+    "answers": [
       "Russia and China",
       "Argentina and Chile",
       "Sweden and Norway",
@@ -20,8 +20,8 @@
     "correct": 3
   },
   {
-    "question": "If you look at a normal map, Greenland looks massive. But which of these areas is actually 3x larger than Greenland?", 
-    "answers": [ 
+    "question": "If you look at a normal map, Greenland looks massive. But which of these areas is actually 3x larger than Greenland?",
+    "answers": [
       "Brazil",
       "Texas",
       "Japan",
@@ -30,8 +30,8 @@
     "correct": 3
   },
   {
-    "question": "If you dropped Mount Everest into the Mariana Trench, could you see it? And what would you see", 
-    "answers": [ 
+    "question": "If you dropped Mount Everest into the Mariana Trench, could you see it? And what would you see",
+    "answers": [
       "The top of the peak",
       "The whole peak",
       "6% of the top of the mountain",
@@ -40,16 +40,33 @@
     "correct": 3
   },
   {
-    "question": "Which river carries the largest volume of water in the world, discharging more than the next seven largest rivers combined?", 
-    "answers": [ 
+    "question": "Which river carries the largest volume of water in the world, discharging more than the next seven largest rivers combined?",
+    "answers": [
       "The Nile River",
       "The Amazon River",
       "The Mississippi River",
       "The Best River"
     ],
     "correct": 1
+  },
+  {
+    "question": "Which country is home to the most natural lakes in the world?",
+    "answers": [
+      "Russia",
+      "Canada",
+      "Brazil",
+      "Finland"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which desert is the largest in the world, covering an area bigger than the Sahara?",
+    "answers": [
+      "Gobi Desert",
+      "Sahara Desert",
+      "Antarctic Desert",
+      "Arabian Desert"
+    ],
+    "correct": 2
   }
 ]
-
-
-
