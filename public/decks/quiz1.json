@@ -49,7 +49,7 @@
     ],
     "correct": 3
   },
-   {
+  {
     "question": "Which word is an verb?",
     "answers": [
       "Leaping",
@@ -59,7 +59,7 @@
     ],
     "correct": 0
   },
-   {
+  {
     "question": "Which word is an adverb?",
     "answers": [
       "Faithful",
@@ -70,4 +70,3 @@
     "correct": 2
   }
 ]
-
