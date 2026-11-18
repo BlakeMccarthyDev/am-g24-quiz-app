@@ -1,72 +1,72 @@
 [
   {
-    "question": "Which planet in our solar system is known as the 'Red Planet'?",
+    "question": "Blake walks into the store to buy 13 packs of sweets, each pack costs £7. How much is his total cost?",
     "answers": [
-      "Venus",
-      "Earth",
-      "Mars",
-      "Saturn"
+      "£20",
+      "£91",
+      "£191",
+      "£19"
     ],
-    "correct": 2
+    "correct": 1
   },
   {
-    "question": "Bears hibernate in the winter, but what are they actually doing during this time?",
+    "question": "There's a big line for a solo rollercoaster. If the ride takes 10 Minutes, and 5 people are in the queue before you, how long do you have to wait before it's your turn?",
     "answers": [
-      "They just sleep",
-      "They go into hiding",
-      "Their metabolism speeds up to keep them warm",
-      "Their heart rate and metabolism slow down to save energy"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "Which ocean creature has three hearts and blue blood?",
-    "answers": [
-      "Great White Shark",
-      "Seals",
-      "Octopus",
-      "Anglerfish"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "What is the only organ in the human body that can completely regenerate itself from a tiny fragment left?",
-    "answers": [
-      "Liver",
-      "Heart",
-      "Brain",
-      "Kidney"
+      "50 minutes",
+      "500 minutes",
+      "15 minutes",
+      "5 minutes"
     ],
     "correct": 0
   },
   {
-    "question": "How many bones does an adult human body typically have?",
+    "question": "Jude is buying a new car, it originally costs £80,000 but is reduced by 25%. What is the new price?",
     "answers": [
-      "106",
-      "200",
-      "402",
-      "206"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "If you could travel through space without a spacesuit, what would happen to your body due to the lack of air pressure?",
-    "answers": [
-      "Your body would instantly freeze solid",
-      "Your body would explode",
-      "You would lose consciousness within seconds due to lack of oxygen",
-      "Your blood would immediately turn into ice"
+      "£25,000",
+      "£40,000",
+      "£60,000",
+      "£55,000"
     ],
     "correct": 2
   },
   {
-    "question": "Which of these animals is capable of surviving being completely frozen and then thawing out alive?",
+    "question": "Ryan has three dodgeballs which are red, white and yellow. He throws them at a person in order and each throw has a 15% chance of hitting the target. What is the probability that Ryan hits the target with his first throw?",
     "answers": [
-      "Wood Frog",
-      "Polar Bear",
-      "Emperor Penguin",
-      "Arctic Fox"
+      "15%",
+      "30%",
+      "0%",
+      "60%"
     ],
     "correct": 0
+  },
+  {
+    "question": "Luke is driving to a party that normally takes 30 minutes to reach from his house. However, he accidentally drives in the wrong direction for 12 minutes before realising his mistake. He turns around, drives back along the same route, and then continues towards the party. If he travels at a constant speed, how long does his entire journey take?",
+    "answers": [
+      "52 minutes",
+      "48 minutes",
+      "122 minutes",
+      "54 minutes"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the value of x if 3x + 5 = 20?",
+    "answers": [
+      "2",
+      "48",
+      "12",
+      "5"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is 15% of 200?",
+    "answers": [
+      "20",
+      "25",
+      "2",
+      "30"
+    ],
+    "correct": 3
   }
 ]
