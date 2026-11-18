@@ -30,7 +30,7 @@
     "correct": 2
   },
   {
-    "question": "Which organ in the human body is capable of regenerating much of its lost tissue?",
+    "question": "What is the only organ in the human body that can completely regenerate itself from a tiny fragment left?",
     "answers": [
       "Liver",
       "Heart",
@@ -50,17 +50,17 @@
     "correct": 3
   },
   {
-    "question": "If you were exposed to the vacuum of space without a spacesuit, what would happen within seconds due to the lack of oxygen?",
+    "question": "If you could travel through space without a spacesuit, what would happen to your body due to the lack of air pressure?",
     "answers": [
       "Your body would instantly freeze solid",
       "Your body would explode",
-      "You would lose consciousness",
+      "You would lose consciousness within seconds due to lack of oxygen",
       "Your blood would immediately turn into ice"
     ],
     "correct": 2
   },
   {
-    "question": "Which of these animals can survive having much of its body water frozen and then thawing out alive?",
+    "question": "Which of these animals is capable of surviving being completely frozen and then thawing out alive?",
     "answers": [
       "Wood Frog",
       "Polar Bear",
