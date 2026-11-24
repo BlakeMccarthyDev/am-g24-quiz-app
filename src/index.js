@@ -15,7 +15,13 @@ let hasAnswered = false;
 // Load questions
 async function startQuiz() {
     try {
-        questions = await loadQuestions("/decks/quiz1.json");
+        const quizPath = document.body.dataset.quiz;
+
+        if (!quizPath) {
+            throw new Error("No quiz JSON file specified");
+        }
+
+        questions = await loadQuestions(quizPath);
 
         if (questions.length === 0) {
             throw new Error("Question deck is empty");
